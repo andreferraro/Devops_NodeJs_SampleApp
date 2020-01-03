@@ -5,7 +5,9 @@
     "private": true,
     "scripts": {
         "start": "node index.js",
-        "test": "mocha ./test/test.js"
+        "test": "mocha ./test/test.js",
+        "build-pm2": "docker build -t sampleapp .",
+        "start-pm2": "docker run --publish=3000:3000 sampleapp"
     },
     "dependencies": {
         "express": "^4.17.1"
