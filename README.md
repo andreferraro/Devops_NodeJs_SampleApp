@@ -3,7 +3,10 @@
 ## Running
 
 `npm run build-pm2`
+
 `npm run start-pm2`
+
+`curl http://localhost:3000`
 
 ## Useful commands
 
