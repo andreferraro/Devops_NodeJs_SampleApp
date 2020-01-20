@@ -2,9 +2,9 @@
 var express = require("express");
 
 var app = express();
-//Respond with "Hello Guys" for requests that hit our root "/"
+//Respond with "Jenkins and GitHub" for requests that hit our root "/"
 app.get("/", function(req, res) {
-  res.send("Hello Guys");
+  res.send("Jenkins and GitHub");
 });
 
 //listen to port 3000 by default
